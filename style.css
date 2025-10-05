@@ -1,0 +1,101 @@
+/* General Page Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* Center the form and style it */
+.booking-form {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Labels */
+.booking-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333333;
+}
+
+/* Inputs, Selects, Textarea */
+.booking-form input[type="text"],
+.booking-form input[type="date"],
+.booking-form input[type="number"],
+.booking-form select,
+.booking-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Submit Button */
+.booking-form button[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-form button[type="submit"]:hover {
+    background-color: #43a047;
+}
+
+
+.booking-form textarea {
+    height: 100px;
+}
+
+.h1 {
+    font-size: 36px;
+    color: #00F;
+    text-align: center;
+    background-image: url('images/tourguides.jfif');
+}
+
+.h2 {
+    font-size: 24px;
+    color: #00F;
+}
+
+.h3 {
+    font-size: 18px;
+    color: #00F;
+}
+
+
+
+
+
+
+
+/* Responsive */
+@media (max-width: 600px) {
+    .booking-form {
+        padding: 20px;
+    }
+}
